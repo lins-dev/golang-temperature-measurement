@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"errors"
 	"fmt"
 	"os"
 	"sort"
@@ -67,8 +66,4 @@ func main(){
 	fmt.Printf("}\n")
 
 	
-	fmt.Errorf("%v", err)
-	errors.New()
-
-
 }
